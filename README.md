@@ -1,4 +1,5 @@
 # Redrob Candidate Ranker
+<img width="1896" height="962" alt="image" src="https://github.com/user-attachments/assets/5fd89b2a-a25e-463a-bf4a-f70d19903eeb" />
 
 A rule-based, fully explainable ranking engine for the **Redrob Intelligent
 Candidate Discovery & Ranking Challenge** — plus a local dashboard to browse
