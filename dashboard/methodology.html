@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Methodology — Redrob Ranker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <div id="navbar-root" data-page="methodology"></div>
+
+  <main>
+    <div class="wrap">
+      <p class="eyebrow">How the score is built</p>
+      <h1 class="page-title">Methodology</h1>
+      <p class="page-sub">
+        No embeddings model, no LLM call, no network access at rank time —
+        by design. Every signal below is a deliberate, auditable rule traced
+        back to a specific line in the job description. That's the tradeoff:
+        full explainability and a ~2-minute, CPU-only run over the whole
+        100K-candidate pool, in exchange for not using a heavier model.
+      </p>
+
+      <div class="section">
+        <div class="section-head"><h2>Pipeline</h2></div>
+        <div class="pipeline">
+          <div class="stage">
+            <div class="stage-index">STAGE 1 · engine/jd_knowledge</div>
+            <h4>Lexical relevance</h4>
+            <p>Regex-matched concept buckets — embeddings/retrieval, vector &amp; hybrid search, eval frameworks (NDCG/MRR/P@K), production language — scanned over headline, summary, every career-history description, and skill names. Hits are capped per bucket (BM25-style saturation) so repeating one buzzword stops paying out.</p>
+          </div>
+          <div class="stage">
+            <div class="stage-index">STAGE 2 · engine/features + scoring</div>
+            <h4>Structured re-ranking</h4>
+            <p>Title seniority, skill credibility (proficiency discounted by duration/endorsements/assessment score — this is what catches keyword-stuffing), career-industry quality, experience-band fit, location &amp; notice-period logistics, education tier, and six explicit disqualifiers.</p>
+          </div>
+          <div class="stage">
+            <div class="stage-index">STAGE 3 · features._behavioral_modifier</div>
+            <h4>Behavioral availability</h4>
+            <p>Multiplicative modifier (0.4×–1.2×) from recency of activity, recruiter response rate, interview completion rate, open-to-work flag, and verification signals. Applied after content scoring — fit and availability are judged separately, then combined.</p>
+          </div>
+          <div class="stage">
+            <div class="stage-index">STAGE 4 · engine/honeypot</div>
+            <h4>Honeypot filter</h4>
+            <p>Hard exclude, not a down-weight. Three internally-consistent signals (detailed below) catch ~60 candidates with impossible profiles before they ever enter the ranking heap.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><h2>Composite score weights</h2></div>
+        <div class="card">
+          <div class="weight-bars">
+            <div class="weight-bar-row"><span class="label">Core JD concepts</span><div class="signal"><div class="track"><div class="fill" style="width:28%"></div></div></div><span class="num">0.28</span></div>
+            <div class="weight-bar-row"><span class="label">System mandate (ranking/search language)</span><div class="signal"><div class="track"><div class="fill" style="width:14%"></div></div></div><span class="num">0.14</span></div>
+            <div class="weight-bar-row"><span class="label">Skill credibility</span><div class="signal"><div class="track"><div class="fill" style="width:12%"></div></div></div><span class="num">0.12</span></div>
+            <div class="weight-bar-row"><span class="label">Title seniority</span><div class="signal"><div class="track"><div class="fill" style="width:10%"></div></div></div><span class="num">0.10</span></div>
+            <div class="weight-bar-row"><span class="label">Experience-band fit (5–9 yrs ideal)</span><div class="signal"><div class="track"><div class="fill" style="width:8%"></div></div></div><span class="num">0.08</span></div>
+            <div class="weight-bar-row"><span class="label">Career-industry quality</span><div class="signal"><div class="track"><div class="fill" style="width:7%"></div></div></div><span class="num">0.07</span></div>
+            <div class="weight-bar-row"><span class="label">Production deployment language</span><div class="signal"><div class="track"><div class="fill" style="width:6%"></div></div></div><span class="num">0.06</span></div>
+            <div class="weight-bar-row"><span class="label">Nice-to-haves (LoRA, LTR, distributed…)</span><div class="signal"><div class="track"><div class="fill" style="width:6%"></div></div></div><span class="num">0.06</span></div>
+            <div class="weight-bar-row"><span class="label">Location / hub fit</span><div class="signal"><div class="track"><div class="fill" style="width:6%"></div></div></div><span class="num">0.06</span></div>
+            <div class="weight-bar-row"><span class="label">Notice period</span><div class="signal"><div class="track"><div class="fill" style="width:4%"></div></div></div><span class="num">0.04</span></div>
+            <div class="weight-bar-row"><span class="label">Education tier</span><div class="signal"><div class="track"><div class="fill" style="width:3%"></div></div></div><span class="num">0.03</span></div>
+          </div>
+          <p style="color:var(--text-low); font-size:13px; margin-top:16px; margin-bottom:0;">
+            final_score = content_score × disqualifier_multipliers × behavioral_modifier. Source of truth: <code>engine/scoring.py</code>.
+          </p>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><h2>Explicit disqualifiers</h2></div>
+        <p class="page-sub" style="font-size:14px;">Multiplicative penalties, not hard excludes — each maps to a "things we explicitly do NOT want" line in the JD. They stack if more than one fires.</p>
+        <div class="disq-grid">
+          <div class="disq-item"><div class="disq-name">services_only</div>Entire career confined to TCS / Infosys / Wipro / Accenture / Cognizant / Capgemini.<div class="disq-mult">×0.25</div></div>
+          <div class="disq-item"><div class="disq-name">cv_speech_dominant</div>≥3 computer-vision/speech skills with zero NLP/IR/retrieval evidence anywhere.<div class="disq-mult">×0.40</div></div>
+          <div class="disq-item"><div class="disq-name">wrapper_only</div>AI exposure confined to the last 12 months and built only on LangChain/OpenAI calls, no pre-LLM ML history.<div class="disq-mult">×0.35</div></div>
+          <div class="disq-item"><div class="disq-name">academic_only</div>Research/postdoc/academic language with no production-deployment language anywhere.<div class="disq-mult">×0.40</div></div>
+          <div class="disq-item"><div class="disq-name">stale_architect</div>Architect/Lead/Director title, 18+ months in role, no coding language in the role's own description.<div class="disq-mult">×0.50</div></div>
+          <div class="disq-item"><div class="disq-name">title_chaser</div>3+ short stints (≤18mo) with strictly escalating seniority — title-hopping pattern.<div class="disq-mult">×0.60</div></div>
+          <div class="disq-item"><div class="disq-name">no_visa_path</div>Outside India, not flagged willing to relocate — Redrob doesn't sponsor visas, so the role can't actually be filled.<div class="disq-mult">×0.20</div></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><h2>How the ~60 honeypots were found</h2></div>
+        <p class="page-sub" style="font-size:14px;">
+          The dataset embeds candidates with internally-impossible profiles. Each
+          heuristic below was verified against the full 100K-candidate
+          population before use — on the legitimate population, the value is
+          <i>always</i> near zero; on honeypots, it jumps straight into a separate
+          cluster. That clean separation is what allows an exclude-on-any-match
+          rule with no observed false positives.
+        </p>
+        <div class="kb-block">expert-proficiency skill, ~0 months of use
+  → 99,979 / 100,000 candidates: zero such skills
+  → the ~21 that have any, have 3–5 simultaneously
+
+career_history duration_months vs. start/end dates
+  → 99,965 / 100,000 candidates: within 3 months (rounding)
+  → honeypot tail: 9–150+ months of inconsistency
+
+career_history total months vs. years_of_experience
+  → 99,977 / 100,000 candidates: within 24 months
+  → honeypot tail: starts at 25+ months over</div>
+      </div>
+
+      <div class="section">
+        <div class="section-head"><h2>Compute budget</h2></div>
+        <div class="stats-row">
+          <div class="stat"><div class="stat-value">~130s</div><div class="stat-label">full 100K-candidate run</div></div>
+          <div class="stat"><div class="stat-value">~210MB</div><div class="stat-label">peak RSS memory</div></div>
+          <div class="stat"><div class="stat-value">0</div><div class="stat-label">network calls at rank time</div></div>
+          <div class="stat"><div class="stat-value">0</div><div class="stat-label">GPU / ML model dependencies</div></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Redrob Intelligent Candidate Discovery &amp; Ranking Challenge</span>
+      <a href="index.html">← Back to overview</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/navbar.js"></script>
+</body>
+</html>

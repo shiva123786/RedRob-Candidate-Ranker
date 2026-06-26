@@ -1,0 +1,7 @@
+{
+  "total_candidates_processed": 100000,
+  "honeypots_excluded": 60,
+  "elapsed_seconds": 131.4,
+  "top_n": 100,
+  "generated_at": "2026-06-26T18:40:03Z"
+}

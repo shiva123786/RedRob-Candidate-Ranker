@@ -1,0 +1,607 @@
+/* ===========================================================
+   Redrob Candidate Ranker — Dashboard Styles
+   Design direction: "control room for an explainable ranker."
+   Near-black ops-tool surface, amber signal accent for score,
+   teal for matched evidence, red for flagged concerns. Data
+   (ids, scores, percentages) always set in monospace so the
+   eye can scan numbers; everything else in the display/body
+   pairing. The repeating "signal bar" is the one motif tying
+   every page together — it's how the product expresses its
+   whole thesis: show the evidence, not just a number.
+   =========================================================== */
+
+:root {
+  --bg: #0E1116;
+  --bg-soft: #11151C;
+  --surface: #161B22;
+  --surface-2: #1C2330;
+  --border: #2A313D;
+  --border-soft: #20262F;
+
+  --text-hi: #E8EBF0;
+  --text-mid: #A7B0BE;
+  --text-low: #6B7484;
+
+  --accent: #FF8A4C;       /* signal / score */
+  --accent-soft: #4A3324;
+  --accent-2: #2DD4BF;     /* matched evidence */
+  --accent-2-soft: #173531;
+  --danger: #F2545B;
+  --danger-soft: #3A2024;
+
+  --font-display: "Space Grotesk", "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --max-width: 1180px;
+}
+
+* { box-sizing: border-box; }
+
+html { color-scheme: dark; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  background-image:
+    radial-gradient(ellipse 900px 500px at 15% -10%, rgba(255, 138, 76, 0.07), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 100% 0%, rgba(45, 212, 191, 0.05), transparent 60%);
+  color: var(--text-hi);
+  font-family: var(--font-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: var(--text-hi);
+}
+
+code, .mono, .num { font-family: var(--font-mono); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+/* ---------------- Navbar ---------------- */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(14, 17, 22, 0.86);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.navbar .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.navbar .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+
+.navbar .brand .dot {
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+.navbar .brand .sep { color: var(--text-low); font-weight: 400; }
+
+.navbar nav {
+  display: flex;
+  gap: 4px;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: var(--text-mid);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s, background 0.15s;
+}
+
+.navbar nav a:hover { color: var(--text-hi); background: var(--surface); }
+.navbar nav a.active { color: var(--text-hi); background: var(--surface-2); }
+
+.navbar nav a.active::after { content: ""; }
+
+@media (max-width: 640px) {
+  .navbar nav a span.full { display: none; }
+}
+
+/* ---------------- Page chrome ---------------- */
+
+main { padding: 56px 0 96px; }
+
+.eyebrow {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  color: var(--accent);
+  margin: 0 0 14px;
+}
+
+.page-title {
+  font-size: clamp(30px, 4vw, 44px);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.page-sub {
+  color: var(--text-mid);
+  font-size: 16px;
+  max-width: 680px;
+  margin-bottom: 0;
+}
+
+/* ---------------- Cards ---------------- */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px;
+}
+
+.card-title {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 12px;
+}
+
+/* ---------------- Signal bar (signature element) ----------------
+   Used on Home (hero comparison), Rankings (per-row score), and
+   Methodology (stage weight visualization). Always: a thin track,
+   a filled amber segment proportional to value, a mono number. */
+
+.signal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.signal .track {
+  flex: 1;
+  height: 6px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  overflow: hidden;
+  min-width: 60px;
+}
+
+.signal .fill {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #FF8A4C, #FFB37A);
+}
+
+.signal .fill.dim {
+  background: linear-gradient(90deg, #54607a, #6c7892);
+}
+
+.signal .value {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-hi);
+  width: 48px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* ---------------- Hero comparison (Home) ---------------- */
+
+.hero {
+  padding: 18px 0 50px;
+  border-bottom: 1px solid var(--border-soft);
+  margin-bottom: 50px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 34px;
+}
+
+@media (max-width: 760px) {
+  .hero-grid { grid-template-columns: 1fr; }
+}
+
+.compare-card {
+  border-radius: var(--radius);
+  padding: 22px;
+  border: 1px solid var(--border);
+  position: relative;
+}
+
+.compare-card.bad {
+  background: linear-gradient(180deg, rgba(242, 84, 91, 0.06), transparent 60%), var(--surface);
+}
+
+.compare-card.good {
+  background: linear-gradient(180deg, rgba(45, 212, 191, 0.07), transparent 60%), var(--surface);
+  border-color: #234943;
+}
+
+.compare-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 14px;
+}
+
+.compare-card.bad .compare-label { color: var(--danger); }
+.compare-card.good .compare-label { color: var(--accent-2); }
+
+.compare-name { font-family: var(--font-display); font-size: 19px; font-weight: 600; margin-bottom: 2px; }
+.compare-role { color: var(--text-mid); font-size: 14px; margin-bottom: 16px; }
+
+.tag-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text-mid);
+  background: var(--surface-2);
+}
+
+.tag.danger { color: var(--danger); border-color: #5a2b2f; background: var(--danger-soft); }
+.tag.good { color: var(--accent-2); border-color: #1f4a44; background: var(--accent-2-soft); }
+.tag.score { color: var(--accent); border-color: #5a3c25; background: var(--accent-soft); }
+
+.compare-foot {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-soft);
+  font-size: 13.5px;
+  color: var(--text-mid);
+}
+
+.compare-foot b { color: var(--text-hi); }
+
+.upload-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.upload-label {
+  flex-basis: 100%;
+  color: var(--text-mid);
+  font-size: 14px;
+}
+
+.mode-select, .upload-button {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  color: var(--text-hi);
+  padding: 8px 12px;
+  font: inherit;
+}
+
+.upload-button {
+  background: linear-gradient(90deg, var(--accent), #ff9f6d);
+  color: #111;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.upload-status {
+  flex-basis: 100%;
+  font-size: 13px;
+  color: var(--text-mid);
+}
+
+.vs-arrow {
+  display: none;
+}
+
+@media (min-width: 761px) {
+  .vs-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-low);
+    z-index: 2;
+  }
+}
+
+/* ---------------- Stat row ---------------- */
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin: 40px 0;
+}
+
+@media (max-width: 760px) {
+  .stats-row { grid-template-columns: 1fr 1fr; }
+}
+
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+}
+
+.stat .stat-value {
+  font-family: var(--font-mono);
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--text-hi);
+}
+
+.stat .stat-label {
+  font-size: 12.5px;
+  color: var(--text-low);
+  margin-top: 4px;
+}
+
+/* ---------------- Pipeline (Home + Methodology) ---------------- */
+
+.pipeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-top: 18px;
+}
+
+@media (max-width: 900px) {
+  .pipeline { grid-template-columns: 1fr; }
+}
+
+.stage {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  position: relative;
+}
+
+.stage .stage-index {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.stage h4 { font-size: 15.5px; margin-bottom: 8px; }
+.stage p { font-size: 13.5px; color: var(--text-mid); margin: 0; }
+
+.stage::after {
+  content: "→";
+  position: absolute;
+  right: -22px;
+  top: 22px;
+  color: var(--text-low);
+  font-size: 16px;
+}
+
+.stage:last-child::after { content: ""; }
+
+@media (max-width: 900px) {
+  .stage::after { display: none; }
+}
+
+/* ---------------- Section headers ---------------- */
+
+.section {
+  margin-top: 64px;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.section-head h2 { font-size: 24px; }
+.section-head .section-note { font-size: 13px; color: var(--text-low); font-family: var(--font-mono); }
+
+/* ---------------- Rankings table ---------------- */
+
+.table-toolbar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 9px 12px;
+  color: var(--text-hi);
+  font-family: var(--font-body);
+  font-size: 14px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.search-input::placeholder { color: var(--text-low); }
+
+.filter-chip {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 13px;
+  font-size: 13px;
+  color: var(--text-mid);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s;
+}
+
+.filter-chip:hover { color: var(--text-hi); }
+.filter-chip.active { background: var(--accent-soft); border-color: #5a3c25; color: var(--accent); }
+
+.rank-table-wrap {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+table.rank-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.rank-table thead th {
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-low);
+  background: var(--bg-soft);
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.rank-table tbody tr {
+  border-bottom: 1px solid var(--border-soft);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+
+.rank-table tbody tr:hover { background: var(--surface); }
+.rank-table tbody tr:last-child { border-bottom: none; }
+
+.rank-table td {
+  padding: 13px 16px;
+  vertical-align: middle;
+}
+
+.rank-table td.rank-num {
+  font-family: var(--font-mono);
+  color: var(--text-low);
+  width: 40px;
+}
+
+.rank-table td.name-cell .who { color: var(--text-hi); font-weight: 500; }
+.rank-table td.name-cell .role { color: var(--text-mid); font-size: 12.5px; margin-top: 2px; }
+
+.rank-table td.score-cell { width: 160px; }
+
+.reasoning-row td {
+  background: var(--bg-soft);
+  padding: 4px 16px 18px 56px;
+  font-size: 13.5px;
+  color: var(--text-mid);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.reasoning-row .tag-row { margin-top: 10px; }
+
+.hidden-row { display: none; }
+
+.empty-state {
+  padding: 40px;
+  text-align: center;
+  color: var(--text-low);
+  font-size: 14px;
+}
+
+/* ---------------- Methodology page ---------------- */
+
+.weight-bars { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
+.weight-bar-row { display: grid; grid-template-columns: 170px 1fr 50px; align-items: center; gap: 10px; font-size: 13.5px; }
+.weight-bar-row .label { color: var(--text-mid); }
+
+.disq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
+@media (max-width: 700px) { .disq-grid { grid-template-columns: 1fr; } }
+
+.disq-item {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  font-size: 13.5px;
+}
+.disq-item .disq-name { font-family: var(--font-mono); color: var(--danger); font-size: 12.5px; margin-bottom: 4px; }
+.disq-item .disq-mult { color: var(--text-low); font-family: var(--font-mono); font-size: 12px; }
+
+.kb-block {
+  background: var(--bg-soft);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--text-mid);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+/* ---------------- Footer ---------------- */
+
+footer {
+  border-top: 1px solid var(--border-soft);
+  padding: 28px 0;
+  color: var(--text-low);
+  font-size: 13px;
+}
+
+footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }

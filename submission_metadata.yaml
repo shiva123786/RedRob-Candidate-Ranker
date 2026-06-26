@@ -1,0 +1,104 @@
+# Redrob Hackathon — Submission Metadata
+#
+# Fields below marked "FILL IN" are specific to you/your team and have been
+# left as placeholders. Everything else describes the engine in this repo
+# and was filled in based on the actual code and the actual run.
+
+# ============================================================================
+# Team identity  —  FILL IN
+# ============================================================================
+team_name: "FILL IN: your-team-name-here"
+
+primary_contact:
+  name: "FILL IN: Full Name"
+  email: "FILL IN: primary@example.com"
+  phone: "FILL IN: +91-XXXXXXXXXX"
+
+team_members:
+  - name: "FILL IN: Member 1 Full Name"
+    email: "FILL IN: member1@example.com"
+    role: "FILL IN, e.g. ML Engineer"
+  # Add more members as needed; solo participants list just one.
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "FILL IN: https://github.com/YOUR_USERNAME/YOUR_REPO"
+# Push this folder's contents (engine/, rank.py, dashboard/, tests/, README.md)
+# to a repo and put the URL here.
+
+sandbox_link: "FILL IN: https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+# This repo's dashboard/ folder is a static site (no backend, no API keys) —
+# it can be deployed as-is to GitHub Pages, a HuggingFace Space (static),
+# Netlify, or Vercel. Generate output/results.json + output/run_meta.json
+# first and commit them into dashboard/data/ so the hosted version has data
+# to show without anyone needing to re-run the 100K-candidate ranking job.
+
+reproduce_command: "python3 rank.py --candidates ./data/candidates.jsonl --out output/submission.csv"
+# Verified end-to-end on the full 100,000-candidate file: ~130s wall time,
+# ~210MB peak RSS, zero network calls, CPU only.
+
+# ============================================================================
+# Compute environment  —  update platform/os/python_version to match
+# whatever machine you actually run the final timed reproduction on
+# ============================================================================
+compute:
+  platform: "FILL IN, e.g. MacBook Pro M2 / AWS EC2 c5.4xlarge / Local Linux box"
+  cpu_cores: 4
+  ram_gb: 16
+  python_version: "3.11"
+  os: "FILL IN, e.g. Ubuntu 22.04 LTS"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used Claude (Anthropic) to design and implement the ranking engine,
+  including the JD-knowledge extraction, feature engineering, scoring
+  weights, honeypot detection heuristics, the dashboard, and the test
+  suite. All design decisions (which signals to use, how to weight them,
+  how to detect honeypots) were derived by directly profiling the actual
+  100,000-candidate dataset — see README.md "How the dataset's traps were
+  identified" for the empirical basis of each heuristic. No candidate data
+  was sent to any external LLM API; all analysis ran locally against the
+  provided file.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Four-stage CPU-only pipeline, ~130s / ~210MB RSS on the full 100K pool.
+  Stage 1: capped, saturating regex matching against a JD-derived concept
+  vocabulary (embeddings/retrieval, vector/hybrid search, eval frameworks,
+  ranking-system mandate language) — BM25-style term saturation without an
+  embeddings model. Stage 2: structured re-ranking — title seniority, a
+  skill-credibility score that discounts claims unsupported by duration/
+  endorsements/assessment scores (the main keyword-stuffing defense),
+  career-industry quality from the schema's own industry field, experience-
+  band fit, location/notice-period logistics, education tier, and six
+  explicit JD disqualifiers (services-only career, CV/speech-only,
+  LLM-wrapper-only, academic-only, stale-architect, title-chaser) plus a
+  no-visa-path check, each a multiplicative penalty. Stage 3: a behavioral
+  availability multiplier from recency, response rate, and engagement
+  signals. Stage 4: a hard honeypot exclude using three internally-
+  consistent signals empirically verified (clean bimodal separation, no
+  observed false positives) against the actual dataset, catching 60 of the
+  documented ~80 honeypots. Reasoning strings are template-assembled from
+  the same extracted facts the score is built from — nothing is invented.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

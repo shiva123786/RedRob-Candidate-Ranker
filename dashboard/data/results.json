@@ -1,0 +1,2585 @@
+[
+  {
+    "rank": 1,
+    "candidate_id": "CAND_0077337",
+    "anonymized_name": "Aarav Agarwal",
+    "score": 0.7617,
+    "reasoning": "7.0-year Staff Machine Learning Engineer (currently at Paytm). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Staff Machine Learning Engineer",
+    "current_company": "Paytm",
+    "years_of_experience": 7.0,
+    "location": "Kochi, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.885,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 2,
+    "candidate_id": "CAND_0081846",
+    "anonymized_name": "Arjun Khanna",
+    "score": 0.7142,
+    "reasoning": "Lead AI Engineer at Razorpay with 6.7 years of experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Lead AI Engineer",
+    "current_company": "Razorpay",
+    "years_of_experience": 6.7,
+    "location": "Jaipur, Rajasthan",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.828,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 3,
+    "candidate_id": "CAND_0064326",
+    "anonymized_name": "Nisha Pillai",
+    "score": 0.6992,
+    "reasoning": "7.6-year Search Engineer (currently at Sarvam AI). Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Search Engineer",
+    "current_company": "Sarvam AI",
+    "years_of_experience": 7.6,
+    "location": "Gurgaon, Haryana",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.903,
+    "notice_period_days": 45,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 4,
+    "candidate_id": "CAND_0041669",
+    "anonymized_name": "Aisha Banerjee",
+    "score": 0.6786,
+    "reasoning": "Recommendation Systems Engineer at CRED with 8.0 years of experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "CRED",
+    "years_of_experience": 8.0,
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.836,
+    "notice_period_days": 60,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 5,
+    "candidate_id": "CAND_0088025",
+    "anonymized_name": "Amit Arora",
+    "score": 0.6745,
+    "reasoning": "Currently Staff Machine Learning Engineer at Yellow.ai; 8.6 years total experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Caveat: 90-day notice period is on the long side.",
+    "current_title": "Staff Machine Learning Engineer",
+    "current_company": "Yellow.ai",
+    "years_of_experience": 8.6,
+    "location": "Jaipur, Rajasthan",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.873,
+    "notice_period_days": 90,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 6,
+    "candidate_id": "CAND_0074225",
+    "anonymized_name": "Kabir Agarwal",
+    "score": 0.6679,
+    "reasoning": "Machine Learning Engineer at Unacademy with 4.3 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Caveat: 120-day notice period is on the long side.",
+    "current_title": "Machine Learning Engineer",
+    "current_company": "Unacademy",
+    "years_of_experience": 4.3,
+    "location": "Vizag, Andhra Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.881,
+    "notice_period_days": 120,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 7,
+    "candidate_id": "CAND_0046064",
+    "anonymized_name": "Saanvi Naidu",
+    "score": 0.6623,
+    "reasoning": "8.9-year Senior NLP Engineer (currently at Salesforce). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Senior NLP Engineer",
+    "current_company": "Salesforce",
+    "years_of_experience": 8.9,
+    "location": "Coimbatore, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.827,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 8,
+    "candidate_id": "CAND_0079387",
+    "anonymized_name": "Sneha Arora",
+    "score": 0.6595,
+    "reasoning": "6.9-year AI Engineer (currently at Microsoft). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "AI Engineer",
+    "current_company": "Microsoft",
+    "years_of_experience": 6.9,
+    "location": "Trivandrum, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.856,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 9,
+    "candidate_id": "CAND_0039754",
+    "anonymized_name": "Mira Banerjee",
+    "score": 0.6593,
+    "reasoning": "Currently Senior Applied Scientist at Meta; 16.2 years total experience. Has built real systems touching embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Senior Applied Scientist",
+    "current_company": "Meta",
+    "years_of_experience": 16.2,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.869,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 10,
+    "candidate_id": "CAND_0046525",
+    "anonymized_name": "Tanvi Mukherjee",
+    "score": 0.6562,
+    "reasoning": "6.1-year Senior Machine Learning Engineer (currently at Genpact AI). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Senior Machine Learning Engineer",
+    "current_company": "Genpact AI",
+    "years_of_experience": 6.1,
+    "location": "Pune, Maharashtra",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.87,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 11,
+    "candidate_id": "CAND_0002025",
+    "anonymized_name": "Ira Dalal",
+    "score": 0.6494,
+    "reasoning": "5.9-year Senior AI Engineer (currently at Apple). Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Senior AI Engineer",
+    "current_company": "Apple",
+    "years_of_experience": 5.9,
+    "location": "Trivandrum, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.837,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 12,
+    "candidate_id": "CAND_0011687",
+    "anonymized_name": "Shreya Tiwari",
+    "score": 0.645,
+    "reasoning": "Currently Senior NLP Engineer at Niramai; 7.8 years total experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Senior NLP Engineer",
+    "current_company": "Niramai",
+    "years_of_experience": 7.8,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.868,
+    "notice_period_days": 15,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 13,
+    "candidate_id": "CAND_0018499",
+    "anonymized_name": "Aarav Trivedi",
+    "score": 0.6435,
+    "reasoning": "Senior Machine Learning Engineer at Zomato with 7.2 years of experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Senior Machine Learning Engineer",
+    "current_company": "Zomato",
+    "years_of_experience": 7.2,
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.756,
+    "notice_period_days": 15,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 14,
+    "candidate_id": "CAND_0007412",
+    "anonymized_name": "Pranav Shah",
+    "score": 0.6303,
+    "reasoning": "Applied ML Engineer at Zoho with 7.4 years of experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Some concern: 120-day notice period is on the long side.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Zoho",
+    "years_of_experience": 7.4,
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.831,
+    "notice_period_days": 120,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 15,
+    "candidate_id": "CAND_0052328",
+    "anonymized_name": "Vikram Banerjee",
+    "score": 0.6234,
+    "reasoning": "6.5-year Recommendation Systems Engineer (currently at Amazon). Has built real systems touching embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Amazon",
+    "years_of_experience": 6.5,
+    "location": "Pune, Maharashtra",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.823,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 16,
+    "candidate_id": "CAND_0071974",
+    "anonymized_name": "Sai Verma",
+    "score": 0.6188,
+    "reasoning": "Senior AI Engineer at Netflix with 7.8 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Senior AI Engineer",
+    "current_company": "Netflix",
+    "years_of_experience": 7.8,
+    "location": "Vizag, Andhra Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.827,
+    "notice_period_days": 45,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 17,
+    "candidate_id": "CAND_0011162",
+    "anonymized_name": "Nisha Sharma",
+    "score": 0.6182,
+    "reasoning": "Recommendation Systems Engineer at upGrad with 5.8 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Worth noting: 90-day notice period is on the long side.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "upGrad",
+    "years_of_experience": 5.8,
+    "location": "Coimbatore, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.792,
+    "notice_period_days": 90,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 18,
+    "candidate_id": "CAND_0095619",
+    "anonymized_name": "Vivaan Dalal",
+    "score": 0.6131,
+    "reasoning": "Currently NLP Engineer at Nykaa; 15.6 years total experience. Has built real systems touching vector hybrid search and embeddings retrieval. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "NLP Engineer",
+    "current_company": "Nykaa",
+    "years_of_experience": 15.6,
+    "location": "Mumbai, Maharashtra",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.899,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 19,
+    "candidate_id": "CAND_0093912",
+    "anonymized_name": "Advik Sethi",
+    "score": 0.6106,
+    "reasoning": "5.3-year Senior Data Scientist (currently at Razorpay). Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Senior Data Scientist",
+    "current_company": "Razorpay",
+    "years_of_experience": 5.3,
+    "location": "Chandigarh, Chandigarh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.801,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 20,
+    "candidate_id": "CAND_0081053",
+    "anonymized_name": "Om Chopra",
+    "score": 0.6086,
+    "reasoning": "NLP Engineer at Glance with 5.4 years of experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Caveat: 90-day notice period is on the long side.",
+    "current_title": "NLP Engineer",
+    "current_company": "Glance",
+    "years_of_experience": 5.4,
+    "location": "Chandigarh, Chandigarh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.838,
+    "notice_period_days": 90,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 21,
+    "candidate_id": "CAND_0008425",
+    "anonymized_name": "Myra Krishnan",
+    "score": 0.6009,
+    "reasoning": "Currently Senior NLP Engineer at Ola; 7.8 years total experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Some concern: 90-day notice period is on the long side.",
+    "current_title": "Senior NLP Engineer",
+    "current_company": "Ola",
+    "years_of_experience": 7.8,
+    "location": "Kolkata, West Bengal",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.772,
+    "notice_period_days": 90,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 22,
+    "candidate_id": "CAND_0006418",
+    "anonymized_name": "Rahul Mukherjee",
+    "score": 0.6008,
+    "reasoning": "Currently Machine Learning Engineer at Verloop.io; 5.7 years total experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Machine Learning Engineer",
+    "current_company": "Verloop.io",
+    "years_of_experience": 5.7,
+    "location": "Gurgaon, Haryana",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.892,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 23,
+    "candidate_id": "CAND_0069905",
+    "anonymized_name": "Nisha Bansal",
+    "score": 0.5982,
+    "reasoning": "6.6-year Applied ML Engineer (currently at Sarvam AI). Has built real systems touching embeddings retrieval and vector hybrid search. Worth noting: 90-day notice period is on the long side.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Sarvam AI",
+    "years_of_experience": 6.6,
+    "location": "Bhubaneswar, Odisha",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.848,
+    "notice_period_days": 90,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 24,
+    "candidate_id": "CAND_0027691",
+    "anonymized_name": "Ayaan Goyal",
+    "score": 0.5969,
+    "reasoning": "Currently NLP Engineer at Haptik; 6.5 years total experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "NLP Engineer",
+    "current_company": "Haptik",
+    "years_of_experience": 6.5,
+    "location": "Pune, Maharashtra",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.759,
+    "notice_period_days": 15,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 25,
+    "candidate_id": "CAND_0052682",
+    "anonymized_name": "Ira Mukherjee",
+    "score": 0.596,
+    "reasoning": "Currently NLP Engineer at Aganitha; 6.6 years total experience. Has built real systems touching embeddings retrieval and eval frameworks. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "NLP Engineer",
+    "current_company": "Aganitha",
+    "years_of_experience": 6.6,
+    "location": "Vizag, Andhra Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.882,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 26,
+    "candidate_id": "CAND_0078492",
+    "anonymized_name": "Aadhya Vora",
+    "score": 0.5923,
+    "reasoning": "5.1-year Recommendation Systems Engineer (currently at Verloop.io). Career history shows direct hands-on work in vector hybrid search and embeddings retrieval. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Verloop.io",
+    "years_of_experience": 5.1,
+    "location": "Kochi, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.8,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 27,
+    "candidate_id": "CAND_0017960",
+    "anonymized_name": "Pari Shah",
+    "score": 0.5913,
+    "reasoning": "Recommendation Systems Engineer at Nykaa with 7.7 years of experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Nykaa",
+    "years_of_experience": 7.7,
+    "location": "Bangalore, Karnataka",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.769,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 28,
+    "candidate_id": "CAND_0005260",
+    "anonymized_name": "Mira Ghosh",
+    "score": 0.587,
+    "reasoning": "Currently Senior NLP Engineer at Netflix; 5.2 years total experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Worth noting: not currently flagged open-to-work.",
+    "current_title": "Senior NLP Engineer",
+    "current_company": "Netflix",
+    "years_of_experience": 5.2,
+    "location": "Chennai, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.727,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 29,
+    "candidate_id": "CAND_0018722",
+    "anonymized_name": "Pranav Trivedi",
+    "score": 0.5866,
+    "reasoning": "Recommendation Systems Engineer at Saarthi.ai with 6.6 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Caveat: 90-day notice period is on the long side.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Saarthi.ai",
+    "years_of_experience": 6.6,
+    "location": "Toronto",
+    "country": "Canada",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.849,
+    "notice_period_days": 90,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 30,
+    "candidate_id": "CAND_0074735",
+    "anonymized_name": "Ananya Arora",
+    "score": 0.5825,
+    "reasoning": "Applied ML Engineer at Rephrase.ai with 5.5 years of experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Worth noting: 90-day notice period is on the long side.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Rephrase.ai",
+    "years_of_experience": 5.5,
+    "location": "Chandigarh, Chandigarh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.819,
+    "notice_period_days": 90,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 31,
+    "candidate_id": "CAND_0096142",
+    "anonymized_name": "Pranav Sethi",
+    "score": 0.5794,
+    "reasoning": "Applied ML Engineer at upGrad with 5.0 years of experience. Profile demonstrates concrete experience with vector hybrid search and eval frameworks. Worth noting: 120-day notice period is on the long side.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "upGrad",
+    "years_of_experience": 5.0,
+    "location": "Hyderabad, Telangana",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.802,
+    "notice_period_days": 120,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 32,
+    "candidate_id": "CAND_0080766",
+    "anonymized_name": "Kiara Mittal",
+    "score": 0.5791,
+    "reasoning": "8.8-year Staff Machine Learning Engineer (currently at Salesforce). Has built real systems touching embeddings retrieval and vector hybrid search. Caveat: not currently flagged open-to-work.",
+    "current_title": "Staff Machine Learning Engineer",
+    "current_company": "Salesforce",
+    "years_of_experience": 8.8,
+    "location": "Coimbatore, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "open source validation"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.676,
+    "notice_period_days": 0,
+    "willing_to_relocate": true,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 33,
+    "candidate_id": "CAND_0079064",
+    "anonymized_name": "Sai Saxena",
+    "score": 0.5762,
+    "reasoning": "5.2-year Senior Data Scientist (currently at Niramai). Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Some concern: 120-day notice period is on the long side.",
+    "current_title": "Senior Data Scientist",
+    "current_company": "Niramai",
+    "years_of_experience": 5.2,
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.904,
+    "notice_period_days": 120,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 34,
+    "candidate_id": "CAND_0041610",
+    "anonymized_name": "Anil Subramanian",
+    "score": 0.5742,
+    "reasoning": "6.7-year Recommendation Systems Engineer (currently at Zoho). Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Zoho",
+    "years_of_experience": 6.7,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.718,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 35,
+    "candidate_id": "CAND_0010770",
+    "anonymized_name": "Ved Mittal",
+    "score": 0.5733,
+    "reasoning": "Recommendation Systems Engineer at Aganitha with 15.2 years of experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Aganitha",
+    "years_of_experience": 15.2,
+    "location": "Kolkata, West Bengal",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.778,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 36,
+    "candidate_id": "CAND_0076163",
+    "anonymized_name": "Nikhil Mittal",
+    "score": 0.572,
+    "reasoning": "Currently NLP Engineer at Ola; 6.9 years total experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "NLP Engineer",
+    "current_company": "Ola",
+    "years_of_experience": 6.9,
+    "location": "Chandigarh, Chandigarh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.838,
+    "notice_period_days": 60,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 37,
+    "candidate_id": "CAND_0061257",
+    "anonymized_name": "Advaith Pillai",
+    "score": 0.5713,
+    "reasoning": "Currently Staff Machine Learning Engineer at LinkedIn; 8.0 years total experience. Profile demonstrates concrete experience with python production and eval frameworks. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Staff Machine Learning Engineer",
+    "current_company": "LinkedIn",
+    "years_of_experience": 8.0,
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.864,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 38,
+    "candidate_id": "CAND_0050876",
+    "anonymized_name": "Vivaan Shah",
+    "score": 0.567,
+    "reasoning": "Applied ML Engineer at Freshworks with 6.0 years of experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Worth noting: 90-day notice period is on the long side.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Freshworks",
+    "years_of_experience": 6.0,
+    "location": "Kolkata, West Bengal",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.751,
+    "notice_period_days": 90,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 39,
+    "candidate_id": "CAND_0062247",
+    "anonymized_name": "Saanvi Trivedi",
+    "score": 0.5649,
+    "reasoning": "7.3-year AI Engineer (currently at Google). Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "AI Engineer",
+    "current_company": "Google",
+    "years_of_experience": 7.3,
+    "location": "Kochi, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.825,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 40,
+    "candidate_id": "CAND_0065195",
+    "anonymized_name": "Kiara Mukherjee",
+    "score": 0.5647,
+    "reasoning": "Search Engineer at CRED with 5.1 years of experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Search Engineer",
+    "current_company": "CRED",
+    "years_of_experience": 5.1,
+    "location": "Kolkata, West Bengal",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.853,
+    "notice_period_days": 45,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 41,
+    "candidate_id": "CAND_0075574",
+    "anonymized_name": "Karan Ghosh",
+    "score": 0.5612,
+    "reasoning": "5.7-year Machine Learning Engineer (currently at Haptik). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Machine Learning Engineer",
+    "current_company": "Haptik",
+    "years_of_experience": 5.7,
+    "location": "Bangalore, Karnataka",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.752,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 42,
+    "candidate_id": "CAND_0006567",
+    "anonymized_name": "Aditya Subramanian",
+    "score": 0.558,
+    "reasoning": "7.9-year Senior AI Engineer (currently at Meta). Career history shows direct hands-on work in vector hybrid search and python production. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Senior AI Engineer",
+    "current_company": "Meta",
+    "years_of_experience": 7.9,
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.852,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 43,
+    "candidate_id": "CAND_0099806",
+    "anonymized_name": "Pranav Subramanian",
+    "score": 0.5574,
+    "reasoning": "4.6-year AI Engineer (currently at Mad Street Den). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "AI Engineer",
+    "current_company": "Mad Street Den",
+    "years_of_experience": 4.6,
+    "location": "Bhubaneswar, Odisha",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.827,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 44,
+    "candidate_id": "CAND_0000031",
+    "anonymized_name": "Ela Singh",
+    "score": 0.5567,
+    "reasoning": "6.0-year Recommendation Systems Engineer (currently at Swiggy). Profile demonstrates concrete experience with embeddings retrieval and eval frameworks. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Swiggy",
+    "years_of_experience": 6.0,
+    "location": "Hyderabad, Telangana",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.822,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 45,
+    "candidate_id": "CAND_0049538",
+    "anonymized_name": "Sanjay Bose",
+    "score": 0.5542,
+    "reasoning": "5.8-year Applied ML Engineer (currently at Saarthi.ai). Profile demonstrates concrete experience with vector hybrid search and embeddings retrieval. Some concern: not currently flagged open-to-work.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Saarthi.ai",
+    "years_of_experience": 5.8,
+    "location": "Jaipur, Rajasthan",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.821,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 46,
+    "candidate_id": "CAND_0086022",
+    "anonymized_name": "Dhruv Naidu",
+    "score": 0.5541,
+    "reasoning": "5.3-year Senior Applied Scientist (currently at Sarvam AI). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Senior Applied Scientist",
+    "current_company": "Sarvam AI",
+    "years_of_experience": 5.3,
+    "location": "Kolkata, West Bengal",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.713,
+    "notice_period_days": 0,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 47,
+    "candidate_id": "CAND_0005538",
+    "anonymized_name": "Aryan Goyal",
+    "score": 0.552,
+    "reasoning": "Currently Senior AI Engineer at Adobe; 5.9 years total experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Some concern: 90-day notice period is on the long side.",
+    "current_title": "Senior AI Engineer",
+    "current_company": "Adobe",
+    "years_of_experience": 5.9,
+    "location": "Kolkata, West Bengal",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "hr recruiting marketplace"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.833,
+    "notice_period_days": 90,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 48,
+    "candidate_id": "CAND_0010257",
+    "anonymized_name": "Ira Shetty",
+    "score": 0.5512,
+    "reasoning": "6.5-year Senior Data Scientist (currently at Google). Career history shows direct hands-on work in vector hybrid search and eval frameworks. Some concern: 120-day notice period is on the long side.",
+    "current_title": "Senior Data Scientist",
+    "current_company": "Google",
+    "years_of_experience": 6.5,
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.813,
+    "notice_period_days": 120,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 49,
+    "candidate_id": "CAND_0083852",
+    "anonymized_name": "Reyansh Banerjee",
+    "score": 0.5469,
+    "reasoning": "Currently Data Scientist at Mad Street Den; 6.0 years total experience. Career history shows direct hands-on work in vector hybrid search and embeddings retrieval. Caveat: 90-day notice period is on the long side.",
+    "current_title": "Data Scientist",
+    "current_company": "Mad Street Den",
+    "years_of_experience": 6.0,
+    "location": "Ahmedabad, Gujarat",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 1.028,
+    "notice_period_days": 90,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 50,
+    "candidate_id": "CAND_0015578",
+    "anonymized_name": "Ved Singh",
+    "score": 0.5468,
+    "reasoning": "Currently AI Engineer at Zoho; 5.4 years total experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Some concern: 90-day notice period is on the long side.",
+    "current_title": "AI Engineer",
+    "current_company": "Zoho",
+    "years_of_experience": 5.4,
+    "location": "Delhi, Delhi",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.759,
+    "notice_period_days": 90,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 51,
+    "candidate_id": "CAND_0030468",
+    "anonymized_name": "Pooja Bose",
+    "score": 0.5467,
+    "reasoning": "Currently Senior Applied Scientist at Swiggy; 5.4 years total experience. Has built real systems touching vector hybrid search and eval frameworks. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Senior Applied Scientist",
+    "current_company": "Swiggy",
+    "years_of_experience": 5.4,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.83,
+    "notice_period_days": 45,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 52,
+    "candidate_id": "CAND_0030031",
+    "anonymized_name": "Anil Joshi",
+    "score": 0.5464,
+    "reasoning": "5.7-year AI Engineer (currently at Microsoft). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Caveat: not currently flagged open-to-work.",
+    "current_title": "AI Engineer",
+    "current_company": "Microsoft",
+    "years_of_experience": 5.7,
+    "location": "Trivandrum, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.767,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 53,
+    "candidate_id": "CAND_0075249",
+    "anonymized_name": "Ishaan Arora",
+    "score": 0.5448,
+    "reasoning": "Applied ML Engineer at Zomato with 6.2 years of experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Zomato",
+    "years_of_experience": 6.2,
+    "location": "Ahmedabad, Gujarat",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.8,
+    "notice_period_days": 45,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 54,
+    "candidate_id": "CAND_0055992",
+    "anonymized_name": "Deepak Bansal",
+    "score": 0.5439,
+    "reasoning": "Currently AI Engineer at CRED; 16.9 years total experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "AI Engineer",
+    "current_company": "CRED",
+    "years_of_experience": 16.9,
+    "location": "Sydney",
+    "country": "Australia",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.819,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 55,
+    "candidate_id": "CAND_0036184",
+    "anonymized_name": "Riya Chopra",
+    "score": 0.5425,
+    "reasoning": "6.0-year Recommendation Systems Engineer (currently at CRED). Has built real systems touching embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "CRED",
+    "years_of_experience": 6.0,
+    "location": "Trivandrum, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.846,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 56,
+    "candidate_id": "CAND_0039838",
+    "anonymized_name": "Mira Trivedi",
+    "score": 0.5422,
+    "reasoning": "4.9-year Recommendation Systems Engineer (currently at Amazon). Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Worth noting: 90-day notice period is on the long side.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Amazon",
+    "years_of_experience": 4.9,
+    "location": "Kochi, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.827,
+    "notice_period_days": 90,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 57,
+    "candidate_id": "CAND_0050454",
+    "anonymized_name": "Saanvi Bansal",
+    "score": 0.5419,
+    "reasoning": "6.8-year AI Engineer (currently at Rephrase.ai). Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "AI Engineer",
+    "current_company": "Rephrase.ai",
+    "years_of_experience": 6.8,
+    "location": "Delhi, Delhi",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.794,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 58,
+    "candidate_id": "CAND_0005649",
+    "anonymized_name": "Riya Kapoor",
+    "score": 0.5377,
+    "reasoning": "Senior Data Scientist at Sarvam AI with 7.4 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Caveat: 90-day notice period is on the long side.",
+    "current_title": "Senior Data Scientist",
+    "current_company": "Sarvam AI",
+    "years_of_experience": 7.4,
+    "location": "Delhi, Delhi",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.744,
+    "notice_period_days": 90,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 59,
+    "candidate_id": "CAND_0014440",
+    "anonymized_name": "Ananya Singh",
+    "score": 0.5376,
+    "reasoning": "6.4-year Recommendation Systems Engineer (currently at CRED). Has built real systems touching vector hybrid search and eval frameworks. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "CRED",
+    "years_of_experience": 6.4,
+    "location": "Chennai, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.774,
+    "notice_period_days": 60,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 60,
+    "candidate_id": "CAND_0030348",
+    "anonymized_name": "Om Mishra",
+    "score": 0.5362,
+    "reasoning": "Currently Machine Learning Engineer at BYJU'S; 4.5 years total experience. Has built real systems touching embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Machine Learning Engineer",
+    "current_company": "BYJU'S",
+    "years_of_experience": 4.5,
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.745,
+    "notice_period_days": 45,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 61,
+    "candidate_id": "CAND_0018549",
+    "anonymized_name": "Mira Verma",
+    "score": 0.5342,
+    "reasoning": "Currently Recommendation Systems Engineer at Uber; 6.8 years total experience. Has built real systems touching vector hybrid search and embeddings retrieval. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Uber",
+    "years_of_experience": 6.8,
+    "location": "Coimbatore, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.785,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 62,
+    "candidate_id": "CAND_0044222",
+    "anonymized_name": "Dev Shah",
+    "score": 0.5309,
+    "reasoning": "AI Engineer at PolicyBazaar with 7.7 years of experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "AI Engineer",
+    "current_company": "PolicyBazaar",
+    "years_of_experience": 7.7,
+    "location": "Vizag, Andhra Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.765,
+    "notice_period_days": 60,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 63,
+    "candidate_id": "CAND_0036863",
+    "anonymized_name": "Vikram Bansal",
+    "score": 0.5288,
+    "reasoning": "Senior Data Scientist at upGrad with 4.3 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Senior Data Scientist",
+    "current_company": "upGrad",
+    "years_of_experience": 4.3,
+    "location": "Chennai, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.697,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 64,
+    "candidate_id": "CAND_0057563",
+    "anonymized_name": "Om Trivedi",
+    "score": 0.5257,
+    "reasoning": "NLP Engineer at Locobuzz with 6.8 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Caveat: not currently flagged open-to-work.",
+    "current_title": "NLP Engineer",
+    "current_company": "Locobuzz",
+    "years_of_experience": 6.8,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.728,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 65,
+    "candidate_id": "CAND_0098846",
+    "anonymized_name": "Shreya Saxena",
+    "score": 0.5242,
+    "reasoning": "AI Engineer at upGrad with 7.6 years of experience. Career history shows direct hands-on work in embeddings retrieval and eval frameworks. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "AI Engineer",
+    "current_company": "upGrad",
+    "years_of_experience": 7.6,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.76,
+    "notice_period_days": 45,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 66,
+    "candidate_id": "CAND_0054394",
+    "anonymized_name": "Ela Iyengar",
+    "score": 0.5216,
+    "reasoning": "Currently Recommendation Systems Engineer at PharmEasy; 4.1 years total experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "PharmEasy",
+    "years_of_experience": 4.1,
+    "location": "Pune, Maharashtra",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.782,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 67,
+    "candidate_id": "CAND_0068351",
+    "anonymized_name": "Aadhya Iyer",
+    "score": 0.52,
+    "reasoning": "Lead AI Engineer at Sarvam AI with 6.4 years of experience. Profile demonstrates concrete experience with vector hybrid search and python production. Some concern: not currently flagged open-to-work.",
+    "current_title": "Lead AI Engineer",
+    "current_company": "Sarvam AI",
+    "years_of_experience": 6.4,
+    "location": "Delhi, Delhi",
+    "country": "India",
+    "matched_concepts": [
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "open source validation"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.745,
+    "notice_period_days": 0,
+    "willing_to_relocate": false,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 68,
+    "candidate_id": "CAND_0077285",
+    "anonymized_name": "Priya Chowdary",
+    "score": 0.52,
+    "reasoning": "Currently Recommendation Systems Engineer at Nykaa; 5.5 years total experience. Has built real systems touching embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Nykaa",
+    "years_of_experience": 5.5,
+    "location": "Ahmedabad, Gujarat",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.702,
+    "notice_period_days": 60,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 69,
+    "candidate_id": "CAND_0061655",
+    "anonymized_name": "Mira Banerjee",
+    "score": 0.5184,
+    "reasoning": "4.6-year Machine Learning Engineer (currently at Krutrim). Profile demonstrates concrete experience with vector hybrid search and eval frameworks. Worth noting: not currently flagged open-to-work.",
+    "current_title": "Machine Learning Engineer",
+    "current_company": "Krutrim",
+    "years_of_experience": 4.6,
+    "location": "Jaipur, Rajasthan",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.752,
+    "notice_period_days": 15,
+    "willing_to_relocate": false,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 70,
+    "candidate_id": "CAND_0068811",
+    "anonymized_name": "Krishna Mittal",
+    "score": 0.5181,
+    "reasoning": "8.0-year Applied ML Engineer (currently at Freshworks). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Freshworks",
+    "years_of_experience": 8.0,
+    "location": "Pune, Maharashtra",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.66,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 71,
+    "candidate_id": "CAND_0061339",
+    "anonymized_name": "Tanvi Dutta",
+    "score": 0.5174,
+    "reasoning": "Currently Search Engineer at Rephrase.ai; 4.2 years total experience. Has built real systems touching vector hybrid search and eval frameworks. Some concern: 90-day notice period is on the long side.",
+    "current_title": "Search Engineer",
+    "current_company": "Rephrase.ai",
+    "years_of_experience": 4.2,
+    "location": "Chandigarh, Chandigarh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.851,
+    "notice_period_days": 90,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 72,
+    "candidate_id": "CAND_0048558",
+    "anonymized_name": "Aisha Joshi",
+    "score": 0.516,
+    "reasoning": "Currently Data Scientist at Rephrase.ai; 6.7 years total experience. Career history shows direct hands-on work in vector hybrid search and python production. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Data Scientist",
+    "current_company": "Rephrase.ai",
+    "years_of_experience": 6.7,
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "vector hybrid search",
+      "python production"
+    ],
+    "nice_to_have_matched": [],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.968,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 73,
+    "candidate_id": "CAND_0052335",
+    "anonymized_name": "Vivaan Sen",
+    "score": 0.5153,
+    "reasoning": "Applied ML Engineer at Aganitha with 6.4 years of experience. Career history shows direct hands-on work in embeddings retrieval and eval frameworks. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Aganitha",
+    "years_of_experience": 6.4,
+    "location": "Berlin",
+    "country": "Germany",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.796,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 74,
+    "candidate_id": "CAND_0065786",
+    "anonymized_name": "Advaith Pandey",
+    "score": 0.5137,
+    "reasoning": "AI Specialist at Swiggy with 4.9 years of experience. Career history shows direct hands-on work in vector hybrid search and embeddings retrieval. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "AI Specialist",
+    "current_company": "Swiggy",
+    "years_of_experience": 4.9,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.89,
+    "notice_period_days": 45,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 75,
+    "candidate_id": "CAND_0070398",
+    "anonymized_name": "Riya Saxena",
+    "score": 0.5129,
+    "reasoning": "Machine Learning Engineer at Genpact AI with 7.2 years of experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Some concern: 120-day notice period is on the long side.",
+    "current_title": "Machine Learning Engineer",
+    "current_company": "Genpact AI",
+    "years_of_experience": 7.2,
+    "location": "Kochi, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.728,
+    "notice_period_days": 120,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 76,
+    "candidate_id": "CAND_0037980",
+    "anonymized_name": "Reyansh Chowdary",
+    "score": 0.5127,
+    "reasoning": "Currently Senior Applied Scientist at Niramai; 9.0 years total experience. Has built real systems touching eval frameworks and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Senior Applied Scientist",
+    "current_company": "Niramai",
+    "years_of_experience": 9.0,
+    "location": "Kolkata, West Bengal",
+    "country": "India",
+    "matched_concepts": [
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.763,
+    "notice_period_days": 0,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 77,
+    "candidate_id": "CAND_0036437",
+    "anonymized_name": "Arjun Joshi",
+    "score": 0.5114,
+    "reasoning": "Search Engineer at Rephrase.ai with 4.8 years of experience. Career history shows direct hands-on work in vector hybrid search and embeddings retrieval. Some concern: not currently flagged open-to-work.",
+    "current_title": "Search Engineer",
+    "current_company": "Rephrase.ai",
+    "years_of_experience": 4.8,
+    "location": "Kolkata, West Bengal",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.756,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 78,
+    "candidate_id": "CAND_0042029",
+    "anonymized_name": "Dhruv Joshi",
+    "score": 0.5083,
+    "reasoning": "Currently Senior Data Scientist at Flipkart; 6.5 years total experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Some concern: not currently flagged open-to-work.",
+    "current_title": "Senior Data Scientist",
+    "current_company": "Flipkart",
+    "years_of_experience": 6.5,
+    "location": "Delhi, Delhi",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.661,
+    "notice_period_days": 45,
+    "willing_to_relocate": true,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 79,
+    "candidate_id": "CAND_0053695",
+    "anonymized_name": "Sanjay Sharma",
+    "score": 0.5065,
+    "reasoning": "5.8-year Recommendation Systems Engineer (currently at Meesho). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Meesho",
+    "years_of_experience": 5.8,
+    "location": "Bhubaneswar, Odisha",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.714,
+    "notice_period_days": 15,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 80,
+    "candidate_id": "CAND_0078002",
+    "anonymized_name": "Reyansh Sharma",
+    "score": 0.5055,
+    "reasoning": "6.3-year Machine Learning Engineer (currently at Meta). Profile demonstrates concrete experience with eval frameworks and embeddings retrieval. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Machine Learning Engineer",
+    "current_company": "Meta",
+    "years_of_experience": 6.3,
+    "location": "Coimbatore, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.87,
+    "notice_period_days": 60,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 81,
+    "candidate_id": "CAND_0084819",
+    "anonymized_name": "Krishna Shah",
+    "score": 0.5051,
+    "reasoning": "Search Engineer at Dream11 with 4.5 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Caveat: 120-day notice period is on the long side.",
+    "current_title": "Search Engineer",
+    "current_company": "Dream11",
+    "years_of_experience": 4.5,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.813,
+    "notice_period_days": 120,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 82,
+    "candidate_id": "CAND_0029367",
+    "anonymized_name": "Yash Malhotra",
+    "score": 0.5048,
+    "reasoning": "Currently Senior Data Scientist at Rephrase.ai; 5.7 years total experience. Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Some concern: 90-day notice period is on the long side.",
+    "current_title": "Senior Data Scientist",
+    "current_company": "Rephrase.ai",
+    "years_of_experience": 5.7,
+    "location": "Bangalore, Karnataka",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.779,
+    "notice_period_days": 90,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 83,
+    "candidate_id": "CAND_0058688",
+    "anonymized_name": "Anjali Kapoor",
+    "score": 0.5,
+    "reasoning": "AI Engineer at Vedantu with 6.7 years of experience. Profile demonstrates concrete experience with embeddings retrieval and eval frameworks. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "AI Engineer",
+    "current_company": "Vedantu",
+    "years_of_experience": 6.7,
+    "location": "Berlin",
+    "country": "Germany",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.836,
+    "notice_period_days": 15,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 84,
+    "candidate_id": "CAND_0091534",
+    "anonymized_name": "Dhruv Dutta",
+    "score": 0.499,
+    "reasoning": "AI Engineer at Flipkart with 16.6 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Some concern: not currently flagged open-to-work.",
+    "current_title": "AI Engineer",
+    "current_company": "Flipkart",
+    "years_of_experience": 16.6,
+    "location": "Gurgaon, Haryana",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.732,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 85,
+    "candidate_id": "CAND_0094056",
+    "anonymized_name": "Diya Pillai",
+    "score": 0.4963,
+    "reasoning": "NLP Engineer at Rephrase.ai with 5.9 years of experience. Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Caveat: 120-day notice period is on the long side.",
+    "current_title": "NLP Engineer",
+    "current_company": "Rephrase.ai",
+    "years_of_experience": 5.9,
+    "location": "Chennai, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.722,
+    "notice_period_days": 120,
+    "willing_to_relocate": true,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 86,
+    "candidate_id": "CAND_0027801",
+    "anonymized_name": "Anil Mittal",
+    "score": 0.4954,
+    "reasoning": "7.4-year NLP Engineer (currently at InMobi). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Some concern: 120-day notice period is on the long side.",
+    "current_title": "NLP Engineer",
+    "current_company": "InMobi",
+    "years_of_experience": 7.4,
+    "location": "Hyderabad, Telangana",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.754,
+    "notice_period_days": 120,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 87,
+    "candidate_id": "CAND_0092706",
+    "anonymized_name": "Karan Kumar",
+    "score": 0.4949,
+    "reasoning": "5.8-year AI Research Engineer (currently at Unacademy). Has built real systems touching embeddings retrieval and vector hybrid search. Caveat: 120-day notice period is on the long side.",
+    "current_title": "AI Research Engineer",
+    "current_company": "Unacademy",
+    "years_of_experience": 5.8,
+    "location": "Delhi, Delhi",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.997,
+    "notice_period_days": 120,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 88,
+    "candidate_id": "CAND_0079284",
+    "anonymized_name": "Ishaan Dutta",
+    "score": 0.493,
+    "reasoning": "4.9-year Machine Learning Engineer (currently at Google). Has built real systems touching eval frameworks and embeddings retrieval. Some concern: not currently flagged open-to-work.",
+    "current_title": "Machine Learning Engineer",
+    "current_company": "Google",
+    "years_of_experience": 4.9,
+    "location": "Hyderabad, Telangana",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.732,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 89,
+    "candidate_id": "CAND_0013536",
+    "anonymized_name": "Nisha Sen",
+    "score": 0.4901,
+    "reasoning": "Applied ML Engineer at Haptik with 14.1 years of experience. Career history shows direct hands-on work in vector hybrid search and eval frameworks. Worth noting: 90-day notice period is on the long side.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Haptik",
+    "years_of_experience": 14.1,
+    "location": "Trivandrum, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.853,
+    "notice_period_days": 90,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 90,
+    "candidate_id": "CAND_0012957",
+    "anonymized_name": "Ritu Menon",
+    "score": 0.4896,
+    "reasoning": "Search Engineer at Razorpay with 4.9 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Some concern: 120-day notice period is on the long side.",
+    "current_title": "Search Engineer",
+    "current_company": "Razorpay",
+    "years_of_experience": 4.9,
+    "location": "Chennai, Tamil Nadu",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.688,
+    "notice_period_days": 120,
+    "willing_to_relocate": true,
+    "open_to_work_flag": false
+  },
+  {
+    "rank": 91,
+    "candidate_id": "CAND_0095528",
+    "anonymized_name": "Amit Dalal",
+    "score": 0.4888,
+    "reasoning": "5.3-year Senior Data Scientist (currently at Netflix). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Senior Data Scientist",
+    "current_company": "Netflix",
+    "years_of_experience": 5.3,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.728,
+    "notice_period_days": 45,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 92,
+    "candidate_id": "CAND_0051292",
+    "anonymized_name": "Shreya Chatterjee",
+    "score": 0.4877,
+    "reasoning": "5.2-year Applied ML Engineer (currently at Freshworks). Has built real systems touching embeddings retrieval and vector hybrid search. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Freshworks",
+    "years_of_experience": 5.2,
+    "location": "Trivandrum, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.677,
+    "notice_period_days": 30,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 93,
+    "candidate_id": "CAND_0098454",
+    "anonymized_name": "Jay Iyengar",
+    "score": 0.4862,
+    "reasoning": "AI Specialist at Meesho with 6.6 years of experience. Has built real systems touching vector hybrid search and embeddings retrieval. Engagement signals (recent activity, response rate) look healthy.",
+    "current_title": "AI Specialist",
+    "current_company": "Meesho",
+    "years_of_experience": 6.6,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 1.096,
+    "notice_period_days": 60,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 94,
+    "candidate_id": "CAND_0066999",
+    "anonymized_name": "Riya Dalal",
+    "score": 0.4861,
+    "reasoning": "Currently Recommendation Systems Engineer at Microsoft; 5.9 years total experience. Profile demonstrates concrete experience with vector hybrid search and embeddings retrieval. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Recommendation Systems Engineer",
+    "current_company": "Microsoft",
+    "years_of_experience": 5.9,
+    "location": "Delhi, Delhi",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.735,
+    "notice_period_days": 15,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 95,
+    "candidate_id": "CAND_0028793",
+    "anonymized_name": "Myra Dutta",
+    "score": 0.4859,
+    "reasoning": "Currently Search Engineer at Google; 7.2 years total experience. Has built real systems touching embeddings retrieval and vector hybrid search. Some concern: 120-day notice period is on the long side.",
+    "current_title": "Search Engineer",
+    "current_company": "Google",
+    "years_of_experience": 7.2,
+    "location": "Trivandrum, Kerala",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.724,
+    "notice_period_days": 120,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 96,
+    "candidate_id": "CAND_0009691",
+    "anonymized_name": "Ira Subramanian",
+    "score": 0.4851,
+    "reasoning": "Applied ML Engineer at LinkedIn with 6.2 years of experience. Has built real systems touching embeddings retrieval and vector hybrid search. Worth noting: 120-day notice period is on the long side.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "LinkedIn",
+    "years_of_experience": 6.2,
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.733,
+    "notice_period_days": 120,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 97,
+    "candidate_id": "CAND_0007596",
+    "anonymized_name": "Shaurya Gupta",
+    "score": 0.485,
+    "reasoning": "Junior ML Engineer at Flipkart with 4.4 years of experience. Profile demonstrates concrete experience with vector hybrid search and python production. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "Junior ML Engineer",
+    "current_company": "Flipkart",
+    "years_of_experience": 4.4,
+    "location": "Delhi, Delhi",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.864,
+    "notice_period_days": 45,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 98,
+    "candidate_id": "CAND_0047521",
+    "anonymized_name": "Manish Mittal",
+    "score": 0.4847,
+    "reasoning": "4.4-year Junior ML Engineer (currently at HCL). Profile demonstrates concrete experience with embeddings retrieval and vector hybrid search. Some concern: 120-day notice period is on the long side.",
+    "current_title": "Junior ML Engineer",
+    "current_company": "HCL",
+    "years_of_experience": 4.4,
+    "location": "Mumbai, Maharashtra",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.85,
+    "notice_period_days": 120,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 99,
+    "candidate_id": "CAND_0066690",
+    "anonymized_name": "Advik Sen",
+    "score": 0.4841,
+    "reasoning": "Currently ML Engineer at Freshworks; 4.8 years total experience. Has built real systems touching vector hybrid search and embeddings retrieval. Behavioral signals support that this candidate is genuinely reachable right now.",
+    "current_title": "ML Engineer",
+    "current_company": "Freshworks",
+    "years_of_experience": 4.8,
+    "location": "Gurgaon, Haryana",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "python production"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 1.014,
+    "notice_period_days": 30,
+    "willing_to_relocate": true,
+    "open_to_work_flag": true
+  },
+  {
+    "rank": 100,
+    "candidate_id": "CAND_0066376",
+    "anonymized_name": "Amit Goyal",
+    "score": 0.4837,
+    "reasoning": "5.7-year Applied ML Engineer (currently at Dream11). Career history shows direct hands-on work in embeddings retrieval and vector hybrid search. Worth noting: 90-day notice period is on the long side.",
+    "current_title": "Applied ML Engineer",
+    "current_company": "Dream11",
+    "years_of_experience": 5.7,
+    "location": "Mumbai, Maharashtra",
+    "country": "India",
+    "matched_concepts": [
+      "embeddings retrieval",
+      "vector hybrid search",
+      "eval frameworks"
+    ],
+    "nice_to_have_matched": [
+      "llm finetuning",
+      "learning to rank"
+    ],
+    "fired_disqualifiers": [],
+    "behavioral_modifier": 0.696,
+    "notice_period_days": 90,
+    "willing_to_relocate": false,
+    "open_to_work_flag": true
+  }
+]

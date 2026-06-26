@@ -1,0 +1,2 @@
+candidate_id,title,company,summary,skills,years_of_experience,location,country
+C1,Senior ML Engineer,Acme,Built retrieval systems with embeddings and hybrid search for production use,Python;Vector Search;Pinecone,6,Bangalore,India

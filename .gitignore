@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/candidates.jsonl
+data/candidates.jsonl.gz
+.DS_Store

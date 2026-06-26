@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rankings — Redrob Ranker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <div id="navbar-root" data-page="rankings"></div>
+
+  <main>
+    <div class="wrap">
+      <p class="eyebrow">Top 100 of 100,000</p>
+      <h1 class="page-title">Rankings</h1>
+      <p class="page-sub">
+        Every row's reasoning is generated from facts actually extracted for that
+        candidate — matched concepts, fired disqualifiers, behavioral signals.
+        Click a row to expand it.
+      </p>
+
+      <div class="section">
+        <div class="table-toolbar">
+          <input class="search-input" id="search-input" type="text" placeholder="Search by name, title, or company…" />
+          <span class="filter-chip active" data-filter="all">All</span>
+          <span class="filter-chip" data-filter="clean">No concerns</span>
+          <span class="filter-chip" data-filter="flagged">Has a flag</span>
+        </div>
+
+        <div class="rank-table-wrap" id="table-wrap">
+          <div class="empty-state">Loading rankings…</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Redrob Intelligent Candidate Discovery &amp; Ranking Challenge</span>
+      <a href="index.html">← Back to overview</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/rankings.js"></script>
+</body>
+</html>

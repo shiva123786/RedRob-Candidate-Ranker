@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redrob Ranker — Intelligent Candidate Discovery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <div id="navbar-root" data-page="home"></div>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Intelligent Candidate Discovery &amp; Ranking</p>
+        <h1 class="page-title">Keyword filters can't see<br />what actually matters.</h1>
+        <p class="page-sub">
+          Same job description. Same 100,000-candidate pool. One system counts
+          buzzwords on a skills list; the other reads career history, weighs how
+          credible each skill claim actually is, and checks whether the person
+          is even reachable. Here's what each one surfaces first.
+        </p>
+
+        <div class="hero-grid">
+          <div class="compare-card bad">
+            <p class="compare-label">✕ What a keyword filter surfaces</p>
+            <div class="compare-name">Rahul Malhotra</div>
+            <div class="compare-role">HR Manager · 4.3 yrs experience</div>
+            <div class="tag-row">
+              <span class="tag danger">10/10 JD buzzwords on skill list</span>
+              <span class="tag">no production ML history</span>
+            </div>
+            <div class="compare-foot">
+              Redrob score: <b>0.16</b> — ranks <b>#7,186</b> of 99,940 candidates.
+              Every keyword matches. The career doesn't.
+            </div>
+          </div>
+
+          <div class="vs-arrow">vs</div>
+
+          <div class="compare-card good">
+            <p class="compare-label">✓ What Redrob surfaces instead</p>
+            <div class="compare-name">Aarav Agarwal</div>
+            <div class="compare-role">Staff Machine Learning Engineer · Paytm · 7.0 yrs</div>
+            <div class="tag-row">
+              <span class="tag good">embeddings + retrieval, in production</span>
+              <span class="tag good">vector / hybrid search</span>
+              <span class="tag good">healthy engagement signals</span>
+            </div>
+            <div class="compare-foot">
+              Redrob score: <b>0.76</b> — ranked <b>#1</b>.
+              Plain career history, no buzzword-stuffing — just the work itself.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="section-head">
+        <h2>This run, in numbers</h2>
+        <span class="section-note" id="meta-timestamp">—</span>
+      </div>
+      <div class="stats-row" id="stats-row">
+        <div class="stat"><div class="stat-value">—</div><div class="stat-label">Loading…</div></div>
+      </div>
+
+      <div class="section">
+        <div class="section-head">
+          <h2>How it thinks</h2>
+          <a href="methodology.html" class="section-note">Full methodology →</a>
+        </div>
+        <div class="pipeline">
+          <div class="stage">
+            <div class="stage-index">STAGE 1</div>
+            <h4>Lexical relevance</h4>
+            <p>Scans career history and skills against a hand-weighted vocabulary pulled directly from the JD — embeddings, retrieval, vector search, eval frameworks — with saturating caps so repeating one buzzword stops paying out.</p>
+          </div>
+          <div class="stage">
+            <div class="stage-index">STAGE 2</div>
+            <h4>Structured re-ranking</h4>
+            <p>Title seniority, career-industry quality, experience-band fit, location &amp; notice-period logistics, education tier, and the JD's explicit disqualifiers (services-only career, CV/speech-only, stale-architect, LLM-wrapper-only…).</p>
+          </div>
+          <div class="stage">
+            <div class="stage-index">STAGE 3</div>
+            <h4>Behavioral availability</h4>
+            <p>A perfect-on-paper candidate who's been dark for six months and ignores recruiters isn't actually available. Recency, response rate, and engagement modulate the score up or down.</p>
+          </div>
+          <div class="stage">
+            <div class="stage-index">STAGE 4</div>
+            <h4>Honeypot safety filter</h4>
+            <p>~60 candidates with internally-impossible profiles (expert skills with zero months of use, career dates that don't add up) are excluded outright — never down-weighted, removed.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-head">
+          <h2>Upload your own CSV</h2>
+          <span class="section-note">Try lexical or hybrid scoring</span>
+        </div>
+        <div class="card upload-card">
+          <label class="upload-label" for="csv-upload">Choose a CSV with candidate_id, title, company, summary, skills, years_of_experience, location, country columns</label>
+          <input id="csv-upload" type="file" accept=".csv" />
+          <select id="ranking-mode" class="mode-select">
+            <option value="lexical">Lexical ranking</option>
+            <option value="semantic_search">Semantic search</option>
+            <option value="vector_embeddings">Vector embeddings</option>
+            <option value="llm_ranking">LLM ranking</option>
+            <option value="hybrid_scoring">Hybrid scoring</option>
+          </select>
+          <button id="run-upload" class="upload-button">Rank uploaded file</button>
+          <div id="upload-status" class="upload-status">Ready to try a local CSV.</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-head">
+          <h2>Top of the shortlist</h2>
+          <a href="rankings.html" class="section-note">See all 100 →</a>
+        </div>
+        <div class="rank-table-wrap" id="preview-table-wrap">
+          <div class="empty-state">Loading rankings…</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Redrob Intelligent Candidate Discovery &amp; Ranking Challenge</span>
+      <span>CPU-only · no network at rank time · 100K candidates in ~2 min</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
