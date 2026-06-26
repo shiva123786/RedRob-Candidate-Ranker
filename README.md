@@ -41,6 +41,7 @@ and the engine's four concerns (JD knowledge, feature extraction, scoring,
 honeypot detection) are four separate modules.
 
 ## Quickstart
+<img width="1902" height="953" alt="image" src="https://github.com/user-attachments/assets/1cd6b14a-0995-43fa-a599-d1e8550db09a" />
 
 ```bash
 # 1. Rank the full candidate pool and write submission.csv
@@ -100,6 +101,7 @@ candidate pool (vs. open-domain text), curated lexical matching plus a
 credibility-aware structured layer gets most of the value at a fraction of
 the engineering and compute cost — and, unlike an embeddings score, every
 number it produces can be explained in one sentence.
+<img width="1896" height="961" alt="image" src="https://github.com/user-attachments/assets/abe65a2e-6b35-490a-8efa-b6d144cc05a2" />
 
 ## How the dataset's traps were identified
 
@@ -122,6 +124,7 @@ directly (see the heuristics' docstrings in `engine/honeypot.py` and
   match `years_of_experience`) each show a **clean bimodal split** on the
   real population — effectively zero false positives — and catch 60 of the
   documented ~80 honeypots.
+<img width="1892" height="967" alt="image" src="https://github.com/user-attachments/assets/d618ae30-7fa1-4ee8-a19b-69137bd75b64" />
 
 ## Running the tests
 
@@ -159,3 +162,4 @@ to you and can't be filled in on your behalf.
   ranges — was tested during dataset exploration and found zero hits on
   this file, so it was left out of `engine/honeypot.py` rather than shipped
   as dead weight; worth re-testing if the dataset is refreshed.
+
